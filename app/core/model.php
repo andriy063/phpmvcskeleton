@@ -21,13 +21,11 @@ class model {
 		res_pack::make_bundle();
 
 		// DB connect
-
-		self::$db_host = 'localhost';
-		self::$db_name = 'n';
-		self::$db_user = 'n';
-		self::$db_pass = 'pwd';
-
 		
+		self::$db_host = 'localhost';
+		self::$db_name = 'dovkolao_blue';
+		self::$db_user = 'dovkolao_blue';
+		self::$db_pass = 'andriy63andriy63';
 
 		// SMTP settings
 		self::$smtp_host = 'www';
