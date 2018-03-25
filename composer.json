@@ -1,0 +1,17 @@
+{
+    "name": "andriy063/php-mvcskeleton",
+    "description": "PHP MVC skeleton for simple web site",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andriy063",
+            "email": "andriy063@gmail.com"
+        }
+    ],
+    "require": {
+        "joshcam/mysqli-database-class": "dev-master",
+        "phpmailer/phpmailer": "^6.0",
+        "claviska/simpleimage": "^3.3"
+    }
+}
