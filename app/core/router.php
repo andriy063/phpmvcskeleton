@@ -17,9 +17,10 @@ class router {
         router::$routes = explode('/', $_SERVER['REQUEST_URI']);
 
         /* If URL similar to /uk/... */
-        if ( in_array(router::$routes['1'], model::$app_lang_codes) ) {
+        $pre_lang = explode('?', router::$routes['1'])['0'];
+        if ( in_array($pre_lang, model::$app_lang_codes) ) {
 
-          model::$app_lang_code = router::$routes['1']; /* Setting up system language by URL */
+          model::$app_lang_code = $pre_lang; /* Setting up system language by URL */
 
           /* If URL similar to /uk/controller/... */
           if ( !empty(router::$routes['2']) ) {

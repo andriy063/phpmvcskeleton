@@ -23,9 +23,9 @@ class model {
 		// DB connect
 		
 		self::$db_host = 'localhost';
-		self::$db_name = 'n';
-		self::$db_user = 'n';
-		self::$db_pass = 'p';
+		self::$db_name = 'name';
+		self::$db_user = 'user';
+		self::$db_pass = 'pwd';
 
 		// SMTP settings
 		self::$smtp_host = 'www';
